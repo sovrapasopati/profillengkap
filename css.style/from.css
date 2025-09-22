@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px 0px 1px rgba(128, 128, 128, 0.450);
+}
+
+form label{
+    font-size: 1rem;
+    color: #333;
+}
+
+form input{
+    width: auto;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+input:focus{
+    border: 1px solid #0074D9;
+    outline: none; /*buat ngilangin border bawaan inputnya*/
+}
+
+button{
+    margin-top: 25px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #0074D9;
+    border: none;
+    cursor: pointer; /*buat ngubah kursor biar jadi tangan*/
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: red;
+    padding: 15px;
+}
+
+select{
+    padding: 12px;
+    border: 1px solid #333;
+}

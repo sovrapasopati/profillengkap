@@ -1,0 +1,106 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#0074D9,white);
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+}
+
+form {
+    width: 500px;
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.forname{
+    display: flex;
+    gap: 10px;
+}
+
+.namadepan, .namabelakang{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.nomor input{
+    width: 73%;
+}
+
+form label {
+    font-size: 1rem;
+    color: #333;
+}
+
+form input {
+    width: auto;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+
+form select {
+    width: auto;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}  
+
+button {
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #0074D9;
+    color: white;
+    margin-bottom: 50px
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: blue;
+}
+
+tr:nth-child(even) {
+     background-color: blue;
+}
+
+tr:hover{
+    background-color: red;
+    transition: 0.5s;
+}
